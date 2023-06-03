@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.text {
+  color: rgb(0, 187, 255);
+  padding: 8px;
+}
+
+.container,.containers {
+  background-color: aquamarine;
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container .message {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  overflow-y: auto;
+  background-color: rgb(149, 129, 129);
+  padding: 20px;
+}
+.container .message .left {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.container .message .left .message_left {
+  background-color: green;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
+.container .message .right {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.container .message .right .message_right {
+  background-color: green;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
+.container  .send {
+  position: absolute;
+  left: 2%;
+  bottom: -10%;
+  display: inline-block;
+  background-color: gainsboro;
+  height: 35px;
+  width: 55%;
+}
+.container .send form {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.container  .send form input {
+  height: 100%;
+  outline: none;
+  background-color: gray;
+  border: 0;
+  width: 100%;
+  color: white;
+  padding-left: 14px;
+}
+.container  .send form .btn {
+  height: 100%;
+  padding: 0 20px;
+  cursor: pointer;
+  background-color: blueviolet;
+  border: none;
+  cursor: pointer;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
